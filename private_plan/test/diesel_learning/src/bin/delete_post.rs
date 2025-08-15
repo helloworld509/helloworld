@@ -14,4 +14,5 @@ fn main() {
         .expect("Error deleting post");
 
     println!("deleted {} posts", num_deleted);
+    println!("You can now run `cargo run --bin show_posts` to see the remaining posts.");
 }
