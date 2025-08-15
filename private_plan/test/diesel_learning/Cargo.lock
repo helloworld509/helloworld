@@ -3,14 +3,6 @@
 version = 4
 
 [[package]]
-name = "backend"
-version = "0.1.0"
-dependencies = [
- "diesel",
- "dotenvy",
-]
-
-[[package]]
 name = "bitflags"
 version = "2.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -81,6 +73,14 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "diesel_learning"
+version = "0.1.0"
+dependencies = [
+ "diesel",
+ "dotenvy",
 ]
 
 [[package]]
